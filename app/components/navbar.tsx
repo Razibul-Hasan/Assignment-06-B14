@@ -25,20 +25,14 @@ export default function Navbar() {
         window.addEventListener("workout-storage-updated", updateCounts);
 
         return () => {
-            window.removeEventListener(
-                "workout-storage-updated",
-                updateCounts
-            );
+            window.removeEventListener("workout-storage-updated", updateCounts);
         };
     }, []);
 
     return (
         <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0c0d0f]">
             <div className="navbar mx-auto min-h-[68px] max-w-[1440px] px-4 sm:px-6 lg:px-8">
-
-                {/* Left */}
                 <div className="navbar-start">
-                    {/* Mobile Dropdown */}
                     <div className="dropdown lg:hidden">
                         <div
                             tabIndex={0}
@@ -73,9 +67,7 @@ export default function Navbar() {
                             </li>
 
                             <li>
-                                <Link href="/my-plan">
-                                    My Plan
-                                </Link>
+                                <Link href="/my-plan">My Plan</Link>
                             </li>
 
                             <li>
@@ -106,7 +98,6 @@ export default function Navbar() {
                         </ul>
                     </div>
 
-                    {/* Logo */}
                     <Link href="/" className="ml-2 flex items-center lg:ml-0">
                         <Image
                             src="/logo.png"
@@ -118,7 +109,6 @@ export default function Navbar() {
                     </Link>
                 </div>
 
-                {/* Center Desktop Menu */}
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal items-center gap-2 px-1">
                         <li>
@@ -141,15 +131,12 @@ export default function Navbar() {
                     </ul>
                 </div>
 
-                {/* Right */}
                 <div className="navbar-end gap-3 sm:gap-6">
                     <Link
                         href="/my-plan"
                         className="flex items-center gap-1.5 text-xs text-white/80 transition hover:text-white sm:gap-2 sm:text-sm"
                     >
-                        <span>
-                            Plan
-                        </span>
+                        <span>Plan</span>
 
                         <span className="badge border-0 bg-lime-400 px-2 text-xs font-bold text-black">
                             {planCount}
