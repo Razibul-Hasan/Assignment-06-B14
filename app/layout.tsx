@@ -18,6 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "FitLog Gym",
   description: "Programing Hero Project - Fitlog Gym",
+
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
