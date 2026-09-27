@@ -22,17 +22,25 @@ A dark, no-nonsense gym companion: browse a library of lifts, lock them into tod
 
 ## Table of Contents
 
-- [About](#about)
-- [Live Demo](#live-demo)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Pages and Routes](#pages-and-routes)
-- [Getting Started](#getting-started)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
-- [How It Works](#how-it-works)
-- [Data Source](#data-source)
-- [Author](#author)
+- [FitLog — Workout Library](#fitlog--workout-library)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Live Demo](#live-demo)
+  - [Features](#features)
+  - [Tech Stack](#tech-stack)
+  - [Pages and Routes](#pages-and-routes)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Production Build](#production-build)
+  - [Available Scripts](#available-scripts)
+  - [Project Structure](#project-structure)
+  - [How It Works](#how-it-works)
+    - [Fetching data](#fetching-data)
+    - [Saving in the browser](#saving-in-the-browser)
+    - [Keeping the UI in sync](#keeping-the-ui-in-sync)
+  - [Data Source](#data-source)
+  - [Author](#author)
 
 ## About
 
@@ -94,8 +102,8 @@ The app is deployed on Netlify: **[assignment-06-b14.netlify.app](https://assign
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Razibul-Hasan/Assignment-06-B14-.git
-   cd Assignment-06-B14-
+   git clone https://github.com/Razibul-Hasan/Assignment-06-B14.git
+   cd Assignment-06-B14
    ```
 
 2. **Install dependencies**
