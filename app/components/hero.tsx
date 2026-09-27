@@ -37,6 +37,7 @@ export default function Hero() {
                                     alt="Workout exercise"
                                     fill
                                     priority
+                                    sizes="(max-width: 640px) 100vw, 330px"
                                     className="object-contain"
                                 />
                             </div>
