@@ -8,6 +8,8 @@
 
 A dark, no-nonsense gym companion: browse a library of lifts, lock them into today's plan, and keep a list of workouts to try later.
 
+**[🔗 Live Demo](https://assignment-06-b14.netlify.app/)**
+
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
@@ -21,6 +23,7 @@ A dark, no-nonsense gym companion: browse a library of lifts, lock them into tod
 ## Table of Contents
 
 - [About](#about)
+- [Live Demo](#live-demo)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Pages and Routes](#pages-and-routes)
@@ -36,6 +39,10 @@ A dark, no-nonsense gym companion: browse a library of lifts, lock them into tod
 FitLog is a workout library built with the Next.js App Router. It pulls a catalogue of exercises from a remote API and shows each one as a card with its target muscle groups, equipment, duration, calories burned and rating. From a workout's detail page you can add it to **today's plan** or **save it for later**. Your plan and saved list are stored in the browser, so they are still there when you come back.
 
 This project was built as **Assignment 06 (Batch 14)** for [Programming Hero](https://www.programming-hero.com/).
+
+## Live Demo
+
+The app is deployed on Netlify: **[assignment-06-b14.netlify.app](https://assignment-06-b14.netlify.app/)**
 
 ## Features
 
@@ -64,6 +71,7 @@ This project was built as **Assignment 06 (Batch 14)** for [Programming Hero](ht
 | Fonts           | [Geist](https://vercel.com/font) via `next/font`                                  |
 | Images          | `next/image` with remote image optimization                                       |
 | Linting         | ESLint 9 + `eslint-config-next`                                                   |
+| Hosting         | [Netlify](https://www.netlify.com/)                                               |
 
 ## Pages and Routes
 
